@@ -29,5 +29,7 @@ The following are tools I will be using in this project:
 - To be continue
 
 ## Test Scenarios
-If you would like to view the complete information of the test scenarios file, please [Download](PK) it here.
+Click [here](https://github.com/Taoan-t/testing-project-for-a-demo-website/blob/ffef15ad3805c7a3f6315ca9acfc91fce796d19c/PrestaShop-Test%20Scenarios.csv) to preview the Test Scenarios file.
+
+If you would like to view the complete information of the test scenarios file, please click [here](https://github.com/Taoan-t/testing-project-for-a-demo-website/blob/ffef15ad3805c7a3f6315ca9acfc91fce796d19c/PrestaShop-Test%20Scenarios.xlsx) to download it.
 ## Test Cases
