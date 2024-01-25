@@ -1,0 +1,48 @@
+Test Scenario,TS_001  Register Functionality,,,,,,,,
+,,,,,,,,,
+Test Case ID,Test Cases Title,Pre-requisites,Test Data,Test Steps,Expected Result (ER),Actual Result,Priority,Result,Comments
+TC_RF_001,Validate Registering an account by providing only the mandatory fields,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,"1. Navigate to 'Your Account' menu option at the bottom of 'Home' page
+2. Click on 'Create account' option
+3. Enter new account information into the mandatory fields (First name, Last name, Email, Password, privacy policy, and data privacy)
+4. Click on 'Save' button (ER-1)","1. User should be logged in, taken to the 'Main' page, and the proper username displayed next to the 'Sign out' button",,,,
+TC_RF_002,Validate Registering an account by providing all the fields,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,"1. Navigate to 'Your Account' menu option at the bottom of 'Home' page
+2. Click on 'Create account' option
+3. Enter new account information into the mandatory fields (Social title, First name, Last name, Email, Password, Birthdate, Receive offers, Privacy policy, newsletter, and data privacy)
+4. Click on 'Save' button (ER-1)","1. User should be logged in, taken to the 'Main' page, and the proper username displayed next to the 'Sign out' button",,,,
+TC_RF_003,Validate proper alert messages are displayed for all fields,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,"1. Navigate to 'Your Account' menu option at the bottom of 'Home' page
+2. Click on 'Create account' option
+3. Don't fill out any fields
+4. Click on 'Save' button (ER-1)
+5. Enter information into 'First name', 'Last name' and 'Email' fields
+6. Enter less than 8 characters into 'Password' field (ER-2)
+7. Enter more than 72 characters into 'Password' field (ER-2)
+8. Enter valid Password format
+9. Enter 'Birthdate' field
+10. Click on 'Save' button (ER-3)","1. User should receive alert message 'Please fill out this field' for the 'First name' field
+2. User should receive alert message 'Enter a password between 8 and 72 characters'
+
+3. The below alert messages should be displayed for the respective fiedls:
+1) For 'Email' field,  user should receive alert message 'Please include an '@' in the email address. '(inputed content)' is missing an '@'.' , or receive alert message 'Please enter a part followed by '@'. (inputed content) is incomplete.', or  receive alert message 'Invalid format'
+2) For 'Privacy policy', user should receive alert message 'Please check this box if you want to proceed.'
+3) For 'data privacy', user should receive alert message 'Please check this box if you want to proceed.'
+4) For 'Birthdate' field,  user should receive alert message 'Format should be 05/31/1970.'",,,,
+TC_RF_004,Validate different ways of navigating to 'Create an account' page,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,"1. Click on 'Sign in' button
+2. Click on 'No account? Create on here' option (ER-1)
+3. Navigate to 'Your Account' menu option at the bottom of 'Home' page
+4. Click on 'Create account' option (ER-1)
+",1. User should be taken to 'Create an account' page,,,,
+TC_RF_005,,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,,,,,,
+TC_RF_006,,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,,,,,,
+TC_RF_007,,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,,,,,,
+TC_RF_008,,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,,,,,,
+TC_RF_009,,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,,,,,,
+TC_RF_010,,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,,,,,,
+TC_RF_011,,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,,,,,,
+TC_RF_012,,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,,,,,,
+TC_RF_013,,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,,,,,,
+TC_RF_014,,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,,,,,,
+TC_RF_015,,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,,,,,,
+TC_RF_016,,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,,,,,,
+TC_RF_017,,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,,,,,,
+TC_RF_018,,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,,,,,,
+TC_RF_019,,Open the application in any browser (https://demo.prestashop.com/#/en/front),Not Applicable,,,,,,
