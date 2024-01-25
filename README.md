@@ -30,8 +30,8 @@ The following are tools I will be using in this project:
 
 ## Test Scenarios
 
-| Test Scenario ID | Test Scenario Description | Number of Test Cases | Reference | Priority |
-| ---------------- | ------------------------- | -------------------- | --------- | -------- |
+| Test Scenario ID | Test Scenario Description | No. of Test Cases | Reference | Priority |
+| ------ | -------------------------------------------------------- | ------ | ------ | ---- |
 | TS_001 | Verify the functionality of Account Register | TBC | FRS | P0 |
 | TS_002 | Verify the functionality of Login | TBC | FRS | P0 |
 | TS_003 | Verify the functionality of Logout | TBC | FRS | P0 |
