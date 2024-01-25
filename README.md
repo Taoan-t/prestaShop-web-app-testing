@@ -29,5 +29,5 @@ The following are tools I will be using in this project:
 - To be continue
 
 ## Test Scenarios
-
+If you would like to view the complete information of the test scenarios file, please [Download](PrestaShop-Test Scenarios.xlsx) it here.
 ## Test Cases
