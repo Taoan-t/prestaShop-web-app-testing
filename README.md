@@ -2,9 +2,9 @@
 ## Project Introduction 
 Assuming I've already received essential documents such as the Function Requirement Specification (FRS) document, Project Plan, etc., I'll create test scenarios, and test cases based on what these documents outline. 
 ### Product Name
-[Presta Shop](https://demo.prestashop.com/#/en/front)	(Frontend）
+[E-commerce Shop](http://automationexercise.com)	(Frontend）
 ### Scope
-The scope of the project includes testing the following features of [Presta Shop](https://demo.prestashop.com/#/en/front) web application:
+The scope of the project includes testing the following features of [E-commerce Shop](http://automationexercise.com) web application:
 - Register
 - Login & Logout
 - Forgot Password
