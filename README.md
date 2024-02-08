@@ -26,7 +26,8 @@ Windows 10 - Chrome, Firefox and Edge
 ### Tools
 The following are tools I will be using in this project:
 - Word and Excel documents
-- To be continue
+- Selenium WebDriver
+- Java
 
 ## Test Scenarios
 
